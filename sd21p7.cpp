@@ -24,7 +24,7 @@ int main() {
 
     *p = 123;
 
-    std::cout << "The pointed to value is :" << *p;
+    std::cout << "The pointed to value is: " << *p << '\n';
 
     delete p;
 
